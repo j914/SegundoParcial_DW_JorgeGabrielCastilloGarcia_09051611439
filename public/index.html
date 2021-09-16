@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parcial 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- nav bar-->
+    <nav class="navbar">
+      <img src="img/logo.png" class="logo" alt="" />
+
+      <div class="join-box">
+        <p class="join-msg"></p>
+        <button class="btn join-btn"  >Suscribase hoy</button>
+        <button  class="btn" >Ingresar</button>
+        <div class="dropdown"><!---clase desplegable-->
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Filtro Pelis por edad
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="/FiltPelisPG13.html">PG13</a>
+            <a class="dropdown-item" href="/FiltPelisPG">PG</a>
+            <a class="dropdown-item" href="/FiltPelisR.html">R</a>
+          </div>
+        </div>
+        <div class="dropdown"><!---clase desplegable-->
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Categoria de Peliculas
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="/FiltCategoriaAccion.html">Accion</a>
+            <a class="dropdown-item" href="/FiltCategoriaComedia.html">Comedia</a>
+            <a class="dropdown-item" href="/FiltCategoriaSuspenso.html">Suspenso</a>
+            <a class="dropdown-item" href="/FiltCategoriaTerror.html">Terror</a>
+          </div>
+        </div>
+        <div class="dropdown"><!---clase desplegable-->
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Clasificacion De Peliculas
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="/FiltAñoEstreno.html">Año Estreno</a>
+            <a class="dropdown-item" href="/PelisExhibicionCine.html">Peliculas en Exhibicion</a>
+            <a class="dropdown-item" href="/FiltPelisRMejorCalificadas.html">Peliculas R Mejor Calificadas</a>
+            <a class="dropdown-item" href="/FiltSeriesTv.html">Series De Television</a>
+          </div>
+        </div>
+      </div>
+     
+    </nav>
+  
+    <!-- SEccion principal-->
+    
+    <header class="main">
+      <h1 class="heading">Peliculas Ilimitadas</h1>
+      <p class="info">
+   Jorge Gabriel Castillo Garcia 0905-16-11439 
+   <br>
+   Desarrollo Web
+      </p>
+    Lo unico imposible es aquello que no se intenta, aunque a unos nos tome dias y a otros horas.
+      </header>
+
+      <!-- se hacen la referncia a los JS en este orden -->
+    <script src="js/api.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/scroll.js"></script>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
